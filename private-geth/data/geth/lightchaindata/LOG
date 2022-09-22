@@ -1,0 +1,32 @@
+=============== Aug 8, 2022 (KST) ===============
+16:56:49.882439 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:56:49.887177 db@open opening
+16:56:49.887363 version@stat F·[] S·0B[] Sc·[]
+16:56:49.888880 db@janitor F·2 G·0
+16:56:49.888893 db@open done T·1.706815ms
+16:56:49.903087 db@close closing
+16:56:49.903161 db@close done T·74.303µs
+=============== Aug 10, 2022 (KST) ===============
+20:04:59.385502 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:04:59.385596 version@stat F·[] S·0B[] Sc·[]
+20:04:59.385631 db@open opening
+20:04:59.385659 journal@recovery F·1
+20:04:59.386831 journal@recovery recovering @1
+20:04:59.388362 memdb@flush created L0@2 N·11 S·585B "H(\x93..J\xf8\xd4,v4":"r\x00\x00..J\xf8\xd4,v6"
+20:04:59.388688 version@stat F·[1] S·585B[585B] Sc·[0.25]
+20:04:59.393840 db@janitor F·3 G·0
+20:04:59.393851 db@open done T·8.213118ms
+20:04:59.399319 db@close closing
+20:04:59.399378 db@close done T·54.531µs
+=============== Aug 16, 2022 (KST) ===============
+14:39:49.671965 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:39:49.673906 version@stat F·[1] S·585B[585B] Sc·[0.25]
+14:39:49.673935 db@open opening
+14:39:49.673986 journal@recovery F·1
+14:39:49.674757 journal@recovery recovering @3
+14:39:49.676935 memdb@flush created L0@5 N·1 S·302B "eth..J\xf8\xd4,v13":"eth..J\xf8\xd4,v13"
+14:39:49.677298 version@stat F·[2] S·887B[887B] Sc·[0.50]
+14:39:49.684309 db@janitor F·4 G·0
+14:39:49.684321 db@open done T·10.378686ms
+14:39:49.694800 db@close closing
+14:39:49.694842 db@close done T·41.763µs
